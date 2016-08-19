@@ -1,4 +1,4 @@
-module Prob2 (
+module Sols.Prob2 (
   solution
 ) where
 
