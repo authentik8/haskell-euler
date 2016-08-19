@@ -2,6 +2,6 @@ module Sols.Prob3 (
   solution
 ) where
 
-  import Common.Primes (primes)
+  import Common.Primes (primeFactors)
 
-  solution = show ( take 3 primes )
+  solution = show (maximum (primeFactors 600851475143))

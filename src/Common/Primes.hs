@@ -7,8 +7,10 @@ module Common.Primes (
   import Data.Maybe (mapMaybe)
 
   primes :: [Integer]
+
   primes = 2:sieve [3,5..]
     where
+
       sieve (x:xs) = x : sieve' xs (insertprime x xs PQ.empty)
 
       sieve' (x:xs) table
