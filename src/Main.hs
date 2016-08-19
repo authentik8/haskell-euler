@@ -5,12 +5,14 @@ import Util (promptLine)
 import qualified Sols.Prob1
 import qualified Sols.Prob2
 import qualified Sols.Prob3
+import qualified Sols.Prob4
 
 solveProblem :: String -> String
 solveProblem strProblemNumber
   | problemNumber == 1 = Sols.Prob1.solution
   | problemNumber == 2 = Sols.Prob2.solution
   | problemNumber == 3 = Sols.Prob3.solution
+  | problemNumber == 4 = Sols.Prob4.solution
   | otherwise          = "Not solved yet"
   where problemNumber = read strProblemNumber :: Int
 

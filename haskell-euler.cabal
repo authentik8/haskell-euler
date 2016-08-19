@@ -22,4 +22,5 @@ executable haskell-euler
                        Common.Primes,
                        Sols.Prob1,
                        Sols.Prob2,
-                       Sols.Prob3
+                       Sols.Prob3,
+                       Sols.Prob4
