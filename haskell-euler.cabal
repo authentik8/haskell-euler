@@ -17,4 +17,4 @@ executable haskell-euler
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
-  other-modules:       Util
+  other-modules:       Util, Prob1
