@@ -17,4 +17,9 @@ executable haskell-euler
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5, containers
-  other-modules:       Util, Common.Fibonacci, Sols.Prob1, Sols.Prob2, Sols.Prob3
+  other-modules:       Util,
+                       Common.Fibonacci,
+                       Common.Primes,
+                       Sols.Prob1,
+                       Sols.Prob2,
+                       Sols.Prob3
