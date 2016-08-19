@@ -1,11 +1,7 @@
 module Main where
 
 import System.IO
-
-promptLine :: String -> IO String
-promptLine prompt = do
-  putStr prompt
-  getLine
+import Util (promptLine)
 
 solveProblem :: String -> String
 solveProblem strProblemNumber
