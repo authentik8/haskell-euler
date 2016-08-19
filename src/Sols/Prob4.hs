@@ -3,7 +3,7 @@ module Sols.Prob4 (
 ) where
   solution = show (maximum palindromes)
 
-  targetRange = [10..99]
+  targetRange = [100..999]
 
   multiples = [ x*y | x <- targetRange, y <- targetRange]
 
