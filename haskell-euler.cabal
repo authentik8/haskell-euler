@@ -33,4 +33,5 @@ executable haskell-euler
                        Sols.Prob10,
                        Sols.Prob11,
                        Sols.Prob12,
-                       Sols.Prob13
+                       Sols.Prob13,
+                       Sols.Prob14
