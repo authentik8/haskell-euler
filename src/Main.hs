@@ -15,6 +15,7 @@ import qualified Sols.Prob9
 import qualified Sols.Prob10
 import qualified Sols.Prob11
 import qualified Sols.Prob12
+import qualified Sols.Prob13
 
 main :: IO ()
 main = do
@@ -33,7 +34,8 @@ main = do
         (9,  Sols.Prob9.solution),
         (10, Sols.Prob10.solution),
         (11, Sols.Prob11.solution),
-        (12, Sols.Prob12.solution)
+        (12, Sols.Prob12.solution),
+        (13, Sols.Prob13.solution)
         ]
 
   let (Just action) = lookup problemNumber solutionList
