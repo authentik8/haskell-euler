@@ -29,4 +29,6 @@ executable haskell-euler
                        Sols.Prob6,
                        Sols.Prob7,
                        Sols.Prob8,
-                       Sols.Prob9
+                       Sols.Prob9,
+                       Sols.Prob10,
+                       Sols.Prob11
