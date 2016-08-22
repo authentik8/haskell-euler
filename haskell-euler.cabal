@@ -20,6 +20,7 @@ executable haskell-euler
   other-modules:       Util,
                        Common.Fibonacci,
                        Common.Primes,
+                       Common.LCM,
                        Sols.Prob1,
                        Sols.Prob2,
                        Sols.Prob3,
@@ -27,4 +28,5 @@ executable haskell-euler
                        Sols.Prob5,
                        Sols.Prob6,
                        Sols.Prob7,
-                       Sols.Prob8
+                       Sols.Prob8,
+                       Sols.Prob9
