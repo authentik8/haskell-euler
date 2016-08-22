@@ -4,4 +4,4 @@ module Sols.Prob5 (
 
   import Common.LCM (lcm')
 
-  solution = show (lcm' ([1..20]))
+  solution = print (lcm' ([1..20]))

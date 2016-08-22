@@ -1,7 +1,7 @@
 module Sols.Prob4 (
   solution
 ) where
-  solution = show (maximum palindromes)
+  solution = print (maximum palindromes)
 
   targetRange = [100..999]
 

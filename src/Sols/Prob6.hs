@@ -9,4 +9,4 @@ module Sols.Prob6 (
 
   inputRange = [1..100]
 
-  solution = show (abs(sumOfSquares inputRange - squareOfSum inputRange))
+  solution = print (abs(sumOfSquares inputRange - squareOfSum inputRange))
